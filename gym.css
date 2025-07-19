@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.88); /* semi-transparent white */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input, button, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.result-box {
+  background-color: #eafaf1;
+  border-left: 4px solid #28a745;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#about-us {
+  margin-top: 50px;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.about-row div {
+  text-align: center;
+  width: 30%;
+}
+
+.blue {
+  background-color: #87ceeb4d;
+}
+
+.yellow {
+  background-color: #fff3cd;
+}
+
+.image-banner img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
